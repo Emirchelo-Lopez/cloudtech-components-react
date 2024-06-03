@@ -1,0 +1,63 @@
+@use "../abstracts/variables";
+@use "../base/colors";
+@import "../base/typography";
+
+.uploaded-subjects-table tr {
+  display: flex;
+  justify-content: space-between;
+}
+
+.uploaded-subjects-table tr.heading-table-row > th {
+  padding: variables.$spacing-md variables.$spacing-sm;
+  text-align: left;
+  @include base2;
+  color: colors.$text-secondary;
+  width: 100px;
+}
+
+.uploaded-subjects-table tr.heading-table-row > th:first-child {
+  padding-left: variables.$spacing-x-lg;
+}
+
+.uploaded-subjects-table tr.heading-table-row > th:last-child {
+  text-align: center;
+  padding-right: variables.$spacing-x-lg;
+}
+
+.uploaded-subjects-table tr.table-row > td {
+  display: flex;
+  flex-wrap: wrap;
+  padding: variables.$spacing-md variables.$spacing-sm;
+  @include base2;
+  color: colors.$text-primary;
+  width: 100px;
+  align-items: center;
+}
+
+.uploaded-subjects-table tr.table-row > td:first-child {
+  display: flex;
+  gap: variables.$spacing-xx-sm;
+  padding-left: variables.$spacing-x-lg;
+}
+
+.uploaded-subjects-table tr.table-row > td:last-child {
+  padding-right: variables.$spacing-x-lg;
+  display: flex;
+  justify-content: center;
+}
+
+.uploaded-subjects-table tr.table-row > td:last-child > svg {
+  cursor: pointer;
+}
+
+.uploaded-subjects-table tr.table-row > td:first-child > span:first-child {
+  @include base1-bold;
+}
+
+.uploaded-subjects-table tr.table-row > td:first-child > span:last-child {
+  @include caption2-medium;
+}
+
+.uploaded-subjects-table tr.shaded-row {
+  background-color: colors.$row-table-shadow;
+}

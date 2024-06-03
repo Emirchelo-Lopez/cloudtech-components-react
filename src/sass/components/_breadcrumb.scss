@@ -1,0 +1,25 @@
+@use "../abstracts/variables";
+@use "../base/colors";
+@import "../base/typography";
+
+#breadcrumb {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  gap: variables.$spacing-x-sm;
+  flex-wrap: wrap;
+  padding: variables.$spacing-none;
+  text-align: center;
+
+  @include caption2-medium;
+
+  color: colors.$text-primary;
+}
+
+#breadcrumb > p {
+  margin: variables.$spacing-none;
+}
+
+#breadcrumb > p:last-child {
+  font-weight: 700;
+}

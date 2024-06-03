@@ -1,0 +1,331 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+// Base font family
+$font-family-base: "Inter", sans-serif;
+
+/* H1 */
+$h1-font-family: $font-family-base;
+$h1-font-size: 64px;
+$h1-font-style: normal;
+$h1-font-weight: 600;
+$h1-line-height: 64px; /* 100% */
+$h1-letter-spacing: -1.92px;
+
+/* H2 */
+$h2-font-family: $font-family-base;
+$h2-font-size: 48px;
+$h2-font-style: normal;
+$h2-font-weight: 600;
+$h2-line-height: 48px; /* 100% */
+$h2-letter-spacing: -1.44px;
+
+/* H3 */
+$h3-font-family: $font-family-base;
+$h3-font-size: 40px;
+$h3-font-style: normal;
+$h3-font-weight: 600;
+$h3-line-height: 48px; /* 120% */
+$h3-letter-spacing: -0.8px;
+
+/* H4 */
+$h4-font-family: $font-family-base;
+$h4-font-size: 32px;
+$h4-font-style: normal;
+$h4-font-weight: 600;
+$h4-line-height: 40px; /* 125% */
+$h4-letter-spacing: -0.96px;
+
+/* Title 1 (Semibold) */
+$title1Semibold-font-family: $font-family-base;
+$title1Semibold-font-size: 20px;
+$title1Semibold-font-style: normal;
+$title1Semibold-font-weight: 600;
+$title1Semibold-line-height: 32px; /* 160% */
+$title1Semibold-letter-spacing: -0.4px;
+
+/* Title 1 (Medium) */
+$title1Medium-font-family: $font-family-base;
+$title1Medium-font-size: 20px;
+$title1Medium-font-style: normal;
+$title1Medium-font-weight: 500;
+$title1Medium-line-height: 32px; /* 160% */
+$title1Medium-letter-spacing: -0.4px;
+
+/* Base 1 (Semibold) */
+$base1Semibold-font-family: $font-family-base;
+$base1Semibold-font-size: 15px;
+$base1Semibold-font-style: normal;
+$base1Semibold-font-weight: 600;
+$base1Semibold-line-height: 24px; /* 160% */
+$base1Semibold-letter-spacing: -0.15px;
+
+/* Base 1 (Bold) */
+$base1Bold-font-family: $font-family-base;
+$base1Bold-font-size: 15px;
+$base1Bold-font-style: normal;
+$base1Bold-font-weight: 700;
+$base1Bold-line-height: 24px; /* 160% */
+$base1Bold-letter-spacing: -0.15px;
+
+/* Base 2 */
+$base2-font-family: $font-family-base;
+$base2-font-size: 14px;
+$base2-font-style: normal;
+$base2-font-weight: 600;
+$base2-line-height: 24px; /* 171.429% */
+$base2-letter-spacing: -0.14px;
+
+/* Body 1 (Medium) */
+$body1Medium-font-family: $font-family-base;
+$body1Medium-font-size: 15px;
+$body1Medium-font-style: normal;
+$body1Medium-font-weight: 500;
+$body1Medium-line-height: 24px; /* 160% */
+$body1Medium-letter-spacing: -0.225px;
+
+/* Body 1 (Semibold) */
+$bodySemibold-font-family: $font-family-base;
+$bodySemibold-font-size: 15px;
+$bodySemibold-font-style: normal;
+$bodySemibold-font-weight: 600;
+$bodySemibold-line-height: 24px; /* 160% */
+$bodySemibold-letter-spacing: -0.15px;
+
+/* Body 2 (Semibold) */
+$body2Semibold-font-family: $font-family-base;
+$body2Semibold-font-size: 14px;
+$body2Semibold-font-style: normal;
+$body2Semibold-font-weight: 600;
+$body2Semibold-line-height: 24px; /* 171.429% */
+$body2Semibold-letter-spacing: -0.14px;
+
+/* Caption 1 */
+$caption1-font-family: $font-family-base;
+$caption1-font-size: 13px;
+$caption1-font-style: normal;
+$caption1-font-weight: 600;
+$caption1-line-height: 16px; /* 123.077% */
+$caption1-letter-spacing: -0.13px;
+
+/* Caption 1 (Medium) */
+$caption1Medium-font-family: $font-family-base;
+$caption1Medium-font-size: 13px;
+$caption1Medium-font-style: normal;
+$caption1Medium-font-weight: 500;
+$caption1Medium-line-height: 16px; /* 123.077% */
+$caption1Medium-letter-spacing: -0.13px;
+
+/* Caption 2 (Bold) */
+$caption2Bold-font-family: $font-family-base;
+$caption2Bold-font-size: 12px;
+$caption2Bold-font-style: normal;
+$caption2Bold-font-weight: 700;
+$caption2Bold-line-height: 16px; /* 133.333% */
+$caption2Bold-letter-spacing: -0.12px;
+
+/* Caption 2 (Medium) */
+$caption2Medium-font-family: $font-family-base;
+$caption2Medium-font-size: 12px;
+$caption2Medium-font-style: normal;
+$caption2Medium-font-weight: 500;
+$caption2Medium-line-height: 12px; /* 100% */
+$caption2Medium-letter-spacing: -0.12px;
+
+/* Button 1 */
+$button1-font-family: $font-family-base;
+$button1-font-size: 15px;
+$button1-font-style: normal;
+$button1-font-weight: 700;
+$button1-line-height: 24px; /* 160% */
+$button1-letter-spacing: -0.15px;
+
+/* Button 2 */
+$button2-font-family: $font-family-base;
+$button2-font-size: 13px;
+$button2-font-style: normal;
+$button2-font-weight: 700;
+$button2-line-height: 24px; /* 184.615% */
+$button2-letter-spacing: -0.13px;
+
+/* ----------------------- */
+
+/* Title 1 (Mobile) */
+$title1Mobile-font-family: $font-family-base;
+$title1Mobile-font-size: 18px;
+$title1Mobile-font-style: normal;
+$title1Mobile-font-weight: 600;
+$title1Mobile-line-height: 32px; /* 177.778% */
+$title1Mobile-letter-spacing: -0.36px;
+
+// Mixin for applying styles
+
+@mixin h1 {
+  font-family: $font-family-base;
+  font-size: $h1-font-size;
+  font-style: $h1-font-style;
+  font-weight: $h1-font-weight;
+  line-height: $h1-line-height;
+  letter-spacing: $h1-letter-spacing;
+}
+
+@mixin h2 {
+  font-family: $font-family-base;
+  font-size: $h2-font-size;
+  font-style: $h2-font-style;
+  font-weight: $h2-font-weight;
+  line-height: $h2-line-height;
+  letter-spacing: $h2-letter-spacing;
+}
+
+@mixin h3 {
+  font-family: $font-family-base;
+  font-size: $h3-font-size;
+  font-style: $h3-font-style;
+  font-weight: $h3-font-weight;
+  line-height: $h3-line-height;
+  letter-spacing: $h3-letter-spacing;
+}
+
+@mixin h4 {
+  font-family: $font-family-base;
+  font-size: $h4-font-size;
+  font-style: $h4-font-style;
+  font-weight: $h4-font-weight;
+  line-height: $h4-line-height;
+  letter-spacing: $h4-letter-spacing;
+}
+
+@mixin title1-semibold {
+  font-family: $title1Semibold-font-family;
+  font-size: $title1Semibold-font-size;
+  font-style: $title1Semibold-font-style;
+  font-weight: $title1Semibold-font-weight;
+  line-height: $title1Semibold-line-height;
+  letter-spacing: $title1Semibold-letter-spacing;
+}
+
+@mixin title1-medium {
+  font-family: $title1Medium-font-family;
+  font-size: $title1Medium-font-size;
+  font-style: $title1Medium-font-style;
+  font-weight: $title1Medium-font-weight;
+  line-height: $title1Medium-line-height;
+  letter-spacing: $title1Medium-letter-spacing;
+}
+
+@mixin base1-semibold {
+  font-family: $base1Semibold-font-family;
+  font-size: $base1Semibold-font-size;
+  font-style: $base1Semibold-font-style;
+  font-weight: $base1Semibold-font-weight;
+  line-height: $base1Semibold-line-height;
+  letter-spacing: $base1Semibold-letter-spacing;
+}
+
+@mixin base1-bold {
+  font-family: $base1Bold-font-family;
+  font-size: $base1Bold-font-size;
+  font-style: $base1Bold-font-style;
+  font-weight: $base1Bold-font-weight;
+  line-height: $base1Bold-line-height;
+  letter-spacing: $base1Bold-letter-spacing;
+}
+
+@mixin base2 {
+  font-family: $base2-font-family;
+  font-size: $base2-font-size;
+  font-style: $base2-font-style;
+  font-weight: $base2-font-weight;
+  line-height: $base2-line-height;
+  letter-spacing: $base2-letter-spacing;
+}
+
+@mixin body1-medium {
+  font-family: $body1Medium-font-family;
+  font-size: $body1Medium-font-size;
+  font-style: $body1Medium-font-style;
+  font-weight: $body1Medium-font-weight;
+  line-height: $body1Medium-line-height;
+  letter-spacing: $body1Medium-letter-spacing;
+}
+
+@mixin body1-semibold {
+  font-family: $body1Semibold-font-family;
+  font-size: $body1Semibold-font-size;
+  font-style: $body1Semibold-font-style;
+  font-weight: $body1Semibold-font-weight;
+  line-height: $body1Semibold-line-height;
+  letter-spacing: $body1Semibold-letter-spacing;
+}
+
+@mixin body2-semibold {
+  font-family: $body2Semibold-font-family;
+  font-size: $body2Semibold-font-size;
+  font-style: $body2Semibold-font-style;
+  font-weight: $body2Semibold-font-weight;
+  line-height: $body2Semibold-line-height;
+  letter-spacing: $body2Semibold-letter-spacing;
+}
+
+@mixin caption1 {
+  font-family: $caption1-font-family;
+  font-size: $caption1-font-size;
+  font-style: $caption1-font-style;
+  font-weight: $caption1-font-weight;
+  line-height: $caption1-line-height;
+  letter-spacing: $caption1-letter-spacing;
+}
+
+@mixin caption1-medium {
+  font-family: $caption1Medium-font-family;
+  font-size: $caption1Medium-font-size;
+  font-style: $caption1Medium-font-style;
+  font-weight: $caption1Medium-font-weight;
+  line-height: $caption1Medium-line-height;
+  letter-spacing: $caption1Medium-letter-spacing;
+}
+
+@mixin caption2-bold {
+  font-family: $caption2Bold-font-family;
+  font-size: $caption2Bold-font-size;
+  font-style: $caption2Bold-font-style;
+  font-weight: $caption2Bold-font-weight;
+  line-height: $caption2Bold-line-height;
+  letter-spacing: $caption2Bold-letter-spacing;
+}
+
+@mixin caption2-medium {
+  font-family: $caption2Medium-font-family;
+  font-size: $caption2Medium-font-size;
+  font-style: $caption2Medium-font-style;
+  font-weight: $caption2Medium-font-weight;
+  line-height: $caption2Medium-line-height;
+  letter-spacing: $caption2Medium-letter-spacing;
+}
+
+@mixin button1 {
+  font-family: $button1-font-family;
+  font-size: $button1-font-size;
+  font-style: $button1-font-style;
+  font-weight: $button1-font-weight;
+  line-height: $button1-line-height;
+  letter-spacing: $button1-letter-spacing;
+}
+
+@mixin button2 {
+  font-family: $button2-font-family;
+  font-size: $button2-font-size;
+  font-style: $button2-font-style;
+  font-weight: $button2-font-weight;
+  line-height: $button2-line-height;
+  letter-spacing: $button2-letter-spacing;
+}
+
+@mixin title1-mobile {
+  font-family: $title1Mobile-font-family;
+  font-size: $title1Mobile-font-size;
+  font-style: $title1Mobile-font-style;
+  font-weight: $title1Mobile-font-weight;
+  line-height: $title1Mobile-line-height;
+  letter-spacing: $title1Mobile-letter-spacing;
+}

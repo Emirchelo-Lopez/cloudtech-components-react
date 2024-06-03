@@ -1,0 +1,43 @@
+@use "../abstracts/variables";
+@use "../base/colors";
+@import "../base/typography";
+
+#counter {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: variables.$spacing-x-sm variables.$spacing-sm;
+  gap: variables.$spacing-x-sm;
+  border-radius: variables.$radius-x-sm;
+
+  @include base1-bold;
+
+  color: colors.$text-primary;
+
+  background-color: colors.$surface-primary;
+}
+
+.number {
+  flex: 1 0 0;
+  text-align: center;
+}
+
+.steppers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.hidden {
+  display: none;
+}
+
+#counter .btn {
+  cursor: pointer;
+  border: none;
+  background-color: colors.$surface-primary;
+  padding: variables.$spacing-none;
+}

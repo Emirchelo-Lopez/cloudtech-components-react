@@ -1,0 +1,36 @@
+@use "../abstracts/variables";
+@use "../base/colors";
+@import "../base/typography";
+
+.role-pill-mobile {
+  display: inline-flex;
+  align-items: center;
+
+  padding: variables.$spacing-sm;
+  width: 266px;
+  border-radius: variables.$radius-sm;
+  box-shadow: 0px -2px 1px 0px rgba(0, 0, 0, 0.05) inset,
+    0px 1px 1px 0px colors.$pure-white inset;
+
+  color: colors.$switch-label-primary;
+
+  @include base1-semibold;
+}
+
+.role-pill-mobile_darkMode {
+  color: colors.$switch-label-primary-darkMode;
+  background-color: colors.$switch-pill-background-darkMode;
+
+  box-shadow: 0px -2px 1px 0px rgba(0, 0, 0, 0.4) inset,
+    0px 1px 1px 0px rgba(255, 255, 255, 0.11) inset;
+}
+
+.left {
+  display: inline-flex;
+  align-items: center;
+  gap: variables.$spacing-sm;
+}
+
+#Role-Pill-Mobile button {
+  border: none;
+}

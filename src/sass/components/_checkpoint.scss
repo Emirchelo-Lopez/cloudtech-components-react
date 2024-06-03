@@ -1,0 +1,37 @@
+@use "../abstracts/variables";
+@use "../base/colors";
+@import "../base/typography";
+
+.checkpoint {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  @include button2;
+}
+
+.checkpoint-index {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.checkpoint-index p {
+  position: absolute;
+}
+
+.checkpoint-fillOff {
+  color: colors.$progressbar-idle;
+}
+
+.checkpoint-fillOn {
+  color: colors.$progressbar-label-primary-active;
+}
+
+.checkpoint-fillOn-darkMode {
+  color: colors.$progressbar-label-primary-active-darkMode;
+}

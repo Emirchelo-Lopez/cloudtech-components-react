@@ -1,0 +1,47 @@
+// 1. Abstracts
+@use "./abstracts/variables";
+
+// 2. Base styles
+@use "./base/colors";
+@use "./base/typography";
+
+// 3. Components
+@use "./components/breadcrumb";
+@use "./components/counter";
+@use "./components/role-pill-desktop";
+@use "./components/role-pill-mobile";
+@use "./components/dropdown-menu";
+@use "./components/draggableField";
+@use "./components/checkpoint";
+@use "./components/sections-completed";
+@use "./components/uploaded-subjects-table";
+
+// src/styles/main.scss
+* {
+  margin: variables.$spacing-none;
+  padding: variables.$spacing-none;
+  box-sizing: content-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  margin-top: 100px;
+  flex-direction: column;
+  gap: variables.$spacing-xxx-lg;
+  height: 100vh;
+}
+
+.component-set-2x1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: variables.$spacing-xx-lg;
+}
+
+.component-set-2x2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: variables.$spacing-sm;
+}
