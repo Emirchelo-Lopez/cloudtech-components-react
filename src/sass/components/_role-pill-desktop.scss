@@ -9,6 +9,8 @@
   align-items: center;
   gap: variables.$spacing-x-sm;
   border-radius: variables.$radius-xxx-lg;
+  border: none;
+  cursor: pointer;
 
   @include base1-semibold;
 }
@@ -55,9 +57,4 @@
     0px 4px 8px -4px rgba(0, 0, 0, 0.25);
 
   color: colors.$switch-label-primary;
-}
-
-#Role-Pill-Desktop button {
-  border: none;
-  cursor: pointer;
 }

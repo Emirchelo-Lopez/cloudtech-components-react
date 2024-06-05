@@ -1,19 +1,40 @@
+/* eslint-disable no-unused-vars */
 import "../src/sass/main.scss";
+
 import Breadcrumb from "./components/molecules/Breadcrumb";
-import Checkpoint from "./components/molecules/Checkpoint/Checkpoint";
+
 import Counter from "./components/molecules/Counter";
+
+import Checkpoint, {
+  Checkpoint_FillOn,
+  Checkpoint_FillOn_DarkMode,
+} from "./components/molecules/Checkpoint";
+
+import SectionsCompletion, {
+  SectionsCompletion_DarkMode,
+} from "./components/organisms/SectionsCompletion.jsx";
+
 import DraggableField from "./components/molecules/DraggableField";
+
 import DropdownMenu from "./components/molecules/DropdownMenu";
-import RolePillDesktop from "./components/molecules/RolePillDesktop";
-import RolePillMobile from "./components/molecules/RolePillMobile";
-import SectionsCompletion from "./components/organisms/SectionsCompletion/SectionsCompletion";
-import SectionsCompletion_DarkMode from "./components/organisms/SectionsCompletion/SectionsCompletion_DarkMode.jsx";
-import UploadedSubjectsTable from "./components/organisms/UploadedSubjectsTable";
+
+import RolePillMobile, {
+  RolePillMobile_DarkMode,
+} from "./components/molecules/RolePillMobile";
+
+import RolePillDesktop, {
+  RolePillDesktop_Hover,
+  RolePillDesktop_Hover_DarkMode,
+  RolePillDesktop_Active,
+  RolePillDesktop_Active_DarkMode,
+} from "./components/molecules/RolePillDesktop.jsx";
+
+import UploadedSubjectsTable from "./components/organisms/Tables/UploadedSubjectsTable.jsx";
 
 function App() {
   return (
     <div>
-      <DraggableField />
+      <UploadedSubjectsTable />
     </div>
   );
 }
