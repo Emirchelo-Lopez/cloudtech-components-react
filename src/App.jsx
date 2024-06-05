@@ -31,10 +31,12 @@ import RolePillDesktop, {
 
 import UploadedSubjectsTable from "./components/organisms/Tables/UploadedSubjectsTable.jsx";
 
+import ScheduleTable from "./components/organisms/Tables/ScheduleTable.jsx";
+
 function App() {
   return (
     <div>
-      <UploadedSubjectsTable />
+      <ScheduleTable />
     </div>
   );
 }

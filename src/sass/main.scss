@@ -6,15 +6,17 @@
 @use "./base/typography";
 
 // 3. Components
-@use "./components/breadcrumb";
-@use "./components/counter";
-@use "./components/role-pill-desktop";
-@use "./components/role-pill-mobile";
-@use "./components/dropdown-menu";
-@use "./components/draggableField";
-@use "./components/checkpoint";
-@use "./components/sections-completed";
-@use "./components/uploaded-subjects-table";
+@use "./components/molecules/breadcrumb";
+@use "./components/molecules/counter";
+@use "./components/molecules/role-pill-desktop";
+@use "./components/molecules/role-pill-mobile";
+@use "./components/molecules/dropdown-menu";
+@use "./components/molecules/draggableField";
+@use "./components/molecules/checkpoint";
+
+@use "./components/organisms/sections-completed";
+@use "./components/organisms/uploaded-subjects-table";
+@use "./components/organisms/schedule-table";
 
 // src/styles/main.scss
 * {

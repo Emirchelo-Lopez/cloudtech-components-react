@@ -1,6 +1,6 @@
-@use "../abstracts/variables";
-@use "../base/colors";
-@import "../base/typography";
+@use "/src/sass/abstracts/variables";
+@use "/src/sass/base/colors";
+@import "/src/sass/base/typography";
 
 #breadcrumb {
   display: flex;
